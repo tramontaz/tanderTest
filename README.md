@@ -1,1 +1,1 @@
-Tets task for "АО Тандер" на позицию junior java developer.
+Тестовое задание для АО "Тандер" на позицию junior java developer.
