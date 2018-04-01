@@ -105,7 +105,7 @@ public class JdbcTestDAOImpl implements TestDAO {
         try {
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(sql);
-            tests = new ArrayList<Test>();
+            tests = new ArrayList<>();
             if (resultSet != null) {
                 while (resultSet.next()) {
                     tests.add(new Test(resultSet.getInt("field")));
